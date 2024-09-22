@@ -41,3 +41,28 @@ Quando seria mais adequado utilizar CSS Grid em vez de display flex? Dê exemplo
 Após sua pesquisa tente replicar esse layout abaixo utilizando grid
 
 ![alt text](.github/image3.png)
+
+### Questão 6
+
+Crie uma página web que permita ao usuário consultar um CEP através da API pública do ViaCEP. A página deve conter um card centralizado com um título "Consulta de CEP", um campo de input para o usuário digitar o CEP e um botão para realizar a consulta. Após a consulta, os dados retornados pela API (como logradouro, bairro, cidade, estado) devem ser exibidos em um texto abaixo do botão, com o título "Resultado".
+
+- Requisitos:
+    
+    - Estrutura HTML:
+    
+        - Um título "Consulta de CEP".
+        - Um campo de input para o usuário digitar o CEP.
+        - Um botão para enviar a consulta.
+        - Uma área abaixo do botão para exibir os resultados.
+    
+    - Estilização CSS:
+    
+        - O card deve ser centralizado na página e estilizado com uma cor de fundo e um espaçamento adequado.
+        - A área de resultados deve ter um tamanho de fonte menor e ser organizada de maneira clara.
+    
+    - Lógica JavaScript:
+    
+        - Utilize fetch para realizar a requisição à API do ViaCEP (https://viacep.com.br/ws/{cep}/json/).
+        - Use Promises (ou async/await) para gerenciar a chamada à API e o retorno dos dados.
+        - Valide o CEP antes de enviar a requisição (certifique-se de que o CEP tem 8 dígitos).
+        - Utilize template literals, let/const, e arrow functions para organizar o código.
