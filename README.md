@@ -66,3 +66,12 @@ Crie uma página web que permita ao usuário consultar um CEP através da API p�
         - Use Promises (ou async/await) para gerenciar a chamada à API e o retorno dos dados.
         - Valide o CEP antes de enviar a requisição (certifique-se de que o CEP tem 8 dígitos).
         - Utilize template literals, let/const, e arrow functions para organizar o código.
+
+### Questão 7
+
+Criar um Componente de Contador com Efeitos Colaterais. O contator deve ser parecido com o timer e ir incrementando 1 a cada 1000 milissegundos. Criar um componente chamado Contador ou Counter
+
+- Use o useState para manter o estado do contador.
+- Use o useEffect para iniciar um intervalo que aumenta o contador a cada segundo (dica, use o setTimeout ou o setInterval junto).
+- Adicione um botão para parar o contador, que deve limpar o intervalo.
+- Exiba o valor atual do contador na tela.
