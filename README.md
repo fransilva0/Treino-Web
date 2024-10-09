@@ -75,3 +75,26 @@ Criar um Componente de Contador com Efeitos Colaterais. O contator deve ser pare
 - Use o useEffect para iniciar um intervalo que aumenta o contador a cada segundo (dica, use o setTimeout ou o setInterval junto).
 - Adicione um botão para parar o contador, que deve limpar o intervalo.
 - Exiba o valor atual do contador na tela.
+
+### Questão 8
+
+- Criação do Projeto
+ - inicialize o projeto com npm init -y.
+ - Instale o Express com o comando npm install express.
+ - Instale o nodemon como dependência de desenvolvimento npm install -D nodemon.
+
+- Estrutura do Código
+ - Crie um arquivo chamado app.js e server.js.
+ - Dentro desse arquivo, configure seu servidor Express para rodar em alguma porta local.
+ - Defina um array inicial de animes com um objeto inicial (servirá como o nosso banco de dados em memória). Cada anime deve ter os seguintes atributos:
+  - id: Número único ou UUID.
+  - name: Nome do anime.
+  - genre: Gênero do anime.
+  - studio: Estúdio responsável pela produção do anime.
+
+- Operações do CRUD
+ - Realize essas operações, criar um anime, atualizar um anime por id, deletar um anime, listar todos os animes e listar um anime por id.
+
+- Desafio Extra
+ - Adicione validações para evitar que um anime seja criado ou atualizado com campos em branco.
+ - Faça com que o ID do anime seja gerado automaticamente ao adicionar um novo anime.
