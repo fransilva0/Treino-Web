@@ -98,3 +98,12 @@ Criar um Componente de Contador com Efeitos Colaterais. O contator deve ser pare
 - Desafio Extra
  - Adicione validações para evitar que um anime seja criado ou atualizado com campos em branco.
  - Faça com que o ID do anime seja gerado automaticamente ao adicionar um novo anime.
+
+### Questão 9
+
+Utilizando uma arquitetura em camadas, separando em pastas as entidades, camada de repositório, camada de serviço e camada de controller. Remodelar a questão 08 para essa arquitetura utilizando um padrão mais orientado a objetos.
+
+- Requisitos: 
+    - Refatorar a questão 08 para um padrão de arquitetura em camadas.
+    - Separar responsabilidades entre arquivos.
+    - Utilizar a mesma regra de negócio da questão 08.
